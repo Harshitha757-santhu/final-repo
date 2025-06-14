@@ -39,6 +39,7 @@ public class CreateCampaignTest extends BaseClass {
 		String msg = hp.getToastMsg().getText();
 		Assert.assertEquals( msg,"Campaign "+campaignName+" Successfully ");
 		hp.getCloseToastMsg().click();
+		System.out.println("test");
 
 	}
 	
